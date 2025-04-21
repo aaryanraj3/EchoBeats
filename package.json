@@ -2,7 +2,7 @@
   "name": "echobeats",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "cjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/index.js",
