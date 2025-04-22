@@ -27,7 +27,7 @@ const Landing = () => {
               >
                 Developers
               </button>
-              <Link to="/login" className="hover:text-yellow-500">
+              <Link to="/login" className="hover:bg-gray-300 bg-white px-6 py-2 rounded-xl  text-black">
                 Login
               </Link>
               <Link

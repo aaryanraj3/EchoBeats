@@ -28,7 +28,7 @@ const schema = new mongoose.Schema(
     
   },
   {
-    timestamps: true, // ye kab create hua hai ya update hua hai batane me help karega
+    timestamps: true, 
   }
 );
 

@@ -15,7 +15,7 @@ cloudinary.v2.config({
 
 const app = express();
 
-// using middlewares
+// using middlewaresAA
 app.use(express.json());
 app.use(cookieParser());
 

@@ -36,14 +36,14 @@ export const loginUser = TryCatch(async (req, res) => {
 
   if (!user)
     return res.status(400).json({
-      message: "No User Exist",
+      message: "Invalid Credentials",
     });
 
   const comparePassword = await bcrypt.compare(password, user.password);
 
   if (!comparePassword)
     return res.status(400).json({
-      message: "Wrong Password",
+      message: "Invalid Credentials",
     });
 
   generateToken(user._id, res);

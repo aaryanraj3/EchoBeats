@@ -1,1 +1,3 @@
-TEAM RAVEN PROJECT
+---------------ECHOBEATS - A Music Streaming Platform-------------------
+
+-------------------------TEAM RAVEN PROJECT------------------------------
