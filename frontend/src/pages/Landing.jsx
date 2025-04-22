@@ -26,8 +26,8 @@ const Landing = () => {
                 className="hover:text-yellow-500"
               >
                 Developers
-              </button> 
-              <Link to="/login" className="bg-white px-6 py-2 rounded-xl hover:bg-gray-300 text-yellow-500">
+              </button>
+              <Link to="/login" className="hover:text-yellow-500">
                 Login
               </Link>
               <Link
@@ -134,8 +134,8 @@ const Landing = () => {
         >
           Sign Up Now
         </Link>
-        <p className="mt-8 text-sm text-white-300 tracking-wide font-semibold">
-    Made with <span className="  animate-pulse">❤️</span> by <span className="font-semibold">Team Raven</span>
+        <p className="mt-8 text-sm text-white-300 tracking-wide">
+    Made with <span className="text-red-500 animate-pulse">♥</span> by <span className="font-semibold">Team R<sup>2</sup>avn</span>
   </p>
       </div>
     </div>
