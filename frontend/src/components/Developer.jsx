@@ -1,7 +1,10 @@
 import React from "react";
 import { Github, Linkedin, X } from "lucide-react";
 import aaryan from"../assets/aaryan.png"
-
+import vishal from"../assets/vishal.jpg"
+import naina from"../assets/naina.png"
+import riteek from"../assets/riteek.png"
+import rohit from"../assets/rohit.png"
 const DeveloperModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
@@ -9,32 +12,32 @@ const DeveloperModal = ({ isOpen, onClose }) => {
     {
       name: "Aaryan Raj",
       image: aaryan,
-      github: "https://github.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
+      github: "https://github.com/aaryanraj3",
+      linkedin: "https://www.linkedin.com/in/aaryan-raj-482484258",
     },
     {
-      name: "Naina Shukal",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
-      github: "https://github.com/janesmith",
-      linkedin: "https://linkedin.com/in/janesmith",
+      name: "Naina Shukla",
+      image: naina,
+      github: "https://github.com/Naina7120284",
+      linkedin: "https://in.linkedin.com/in/naina-shukla-15406a260",
     },
     {
       name: "Riteek Raj Tiwari",
-      image: "https://randomuser.me/api/portraits/men/80.jpg",
-      github: "https://github.com/maxraven",
-      linkedin: "https://linkedin.com/in/maxraven",
+      image: riteek,
+      github: "https://github.com/tiwari369",
+      linkedin: "https://www.linkedin.com/in/riteek-tiwari-0323a5361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Rohit Kumar",
-      image: "https://randomuser.me/api/portraits/men/80.jpg",
-      github: "https://github.com/maxraven",
-      linkedin: "https://linkedin.com/in/maxraven",
+      image: rohit,
+      github: "https://github.com/rohitkumar15aug",
+      linkedin: "https://www.linkedin.com/in/rohit-kumar-5a1b1b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Vishal Kumar",
-      image: "https://randomuser.me/api/portraits/men/80.jpg",
-      github: "https://github.com/maxraven",
-      linkedin: "https://linkedin.com/in/maxraven",
+      image: vishal,
+      github: "https://github.com/vishalkumar4sep",
+      linkedin: "https://www.linkedin.com/in/vishal-kumar-293a58256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ];
 
