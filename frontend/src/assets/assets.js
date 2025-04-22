@@ -2,7 +2,6 @@ import home_icon from "./home.png";
 import next_icon from "./next.png";
 import play_icon from "./play.png";
 import pause_icon from "./pause.png";
-import plays_icon from "./plays.png";
 import prev_icon from "./prev.png";
 import search_icon from "./search.png";
 import stack_icon from "./stack.png";
@@ -27,7 +26,7 @@ export const assets = {
   
   next_icon,
   play_icon,
-  plays_icon,
+
   prev_icon,
   search_icon,
   stack_icon,
