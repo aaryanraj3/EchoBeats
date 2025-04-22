@@ -17,7 +17,10 @@ import echobeats_logo from "./echobeats_logo.ico";
 import echobeats_hq_logo from "./echobeatshqlogo.jpg";
 import mute_icon from "./mute.png";
 import premium_icon from "./premium.png";
+import podcast_icon from "./podcast.png"
+
 export const assets = {
+  podcast_icon,
   mute_icon,
   premium_icon,
   echobeats_hq_logo,

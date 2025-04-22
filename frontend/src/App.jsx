@@ -11,6 +11,7 @@ import Album from "./pages/Album";
 import Landing from "./pages/Landing";
 import { Helmet } from "react-helmet";
 import Music from "./pages/Music";
+import Podcasts from "./pages/Podcast";
 
 const App = () => {
   const { loading, user, isAuth } = UserData();
@@ -25,7 +26,7 @@ const App = () => {
       ) : (
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={isAuth ? <Home /> : <Landing />} />
+          <Route path="/" element={isAuth ? <Home /> : <Landing />} />
             <Route path="/home" element={isAuth ? <Home /> : <Login />} />
             <Route
               path="/playlist"
@@ -44,6 +45,10 @@ const App = () => {
             <Route
               path="/register"
               element={isAuth ? <Home /> : <Register />}
+            />
+            <Route
+              path="/podcasts"
+              element={isAuth ? <Podcasts user={user} /> : <Login />}  
             />
           </Routes>
         </BrowserRouter>
