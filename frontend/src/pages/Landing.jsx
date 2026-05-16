@@ -34,7 +34,7 @@ const Landing = () => {
                 to="/register"
                 className="bg-yellow-500 px-6 py-2 rounded-xl hover:bg-yellow-600 text-white"
               >
-                Sign Up
+                 Sign Up
               </Link>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Landing = () => {
           <p className="text-lg text-white mb-8 max-w-2xl mx-auto">
             Join EchoBeats to explore the latest albums, create personalized
             playlists, and listen to curated music collections anytime,
-            anywhere. Music that speaks to your soul, waiting for you.
+            anywhere. Music that speaks to your soul, waiting for you..
           </p>
           <div className="space-x-6">
             <Link
@@ -135,7 +135,7 @@ const Landing = () => {
           Sign Up Now
         </Link>
         <p className="mt-8 text-sm text-white-300 tracking-wide">
-    Made with <span className="text-red-500 animate-pulse">♥</span> by <span className="font-semibold">Team R<sup>2</sup>avn</span>
+     Made with <span className="text-red-500 animate-pulse">♥</span> by <span className="font-semibold">Team R<sup>2</sup>avn</span>
   </p>
       </div>
     </div>
