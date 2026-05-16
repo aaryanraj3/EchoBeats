@@ -2,6 +2,9 @@
 
 # EchoBeats with MERN Stack
 This project is a simple Music Streaming Plateform, built using the MERN (MongoDB, Express.js, React, Node.js) stack. It emulates the core functionality that allowing users to listen to music. This project showcases the power and flexibility of MERN for developing real-world applications.
+
+* Website link : https://echobeats-14jw.onrender.com/
+
 <h1>Technologies used - </h1>
 <h2>1. ReactJS</h2>
 <h2>2. MongoDB</h2>
